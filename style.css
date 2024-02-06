@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridContainer {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.user-options {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
